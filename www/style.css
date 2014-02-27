@@ -1,0 +1,78 @@
+body {
+	background-color: #4ac;
+	font-family: arial, helvetica, sans-serif;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	border-bottom: 1px solid black;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.login-form {
+	float: right;
+}
+
+.content {
+	float: none;
+	padding: 15px;
+}
+
+h1, h2 {
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td, th {
+	border: 1px solid black;
+}
+
+#prof-pic {
+	margin: 60px;
+	transform: rotate(20deg);
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+}
+
+.footer {
+	border-top: 1px solid black;
+	padding-top: 15px;
+}
+
+.calculator {
+	display: none;
+	width: 300px;
+	border: 1px solid black;
+	margin: auto;
+	float: none;
+	padding: 5px;
+}
+
+.calculator #result {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.calculator #input {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

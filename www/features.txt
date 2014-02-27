@@ -1,0 +1,9 @@
+scoping:
+on the cotrary of Java, which has block based scopes, javascript has two major scopes - the function scope and the global scope.
+inside these scopes, all declerations are copied two the head of the function, this is called hoisting.
+
+
+dynamic types:
+variable types are determined dinamicaly at run time.
+functions can just get arguments, without declaring their types.
+this helps the programmer focus on whats really matters - the algorithm and the design of the program.

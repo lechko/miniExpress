@@ -1,0 +1,15 @@
+$("#clear").click(function () {
+	calc.clear(updateScreen);
+});
+
+$("#settings").click(function () {
+	$("#dialog-form").dialog("open");
+});
+
+$("#input").keypress(numbersonly);
+
+
+These lines will run upon creation of calcController.
+They will register the functions i pass as callback functions for the coresponding events.
+Whent the event fires, the eventloop will dispatch the event from the queue and will 
+execute all the funcitons registered for it.

@@ -1,0 +1,13 @@
+1) what was hard?
+- Dealing with the asynchrounous model
+- Implementation of HTTP Pipelining (request are received and handled in asynchrounous matter, 
+	however responses must be in the same order as requests).
+- Modeling the system so it will be clear (hopefully).
+
+2) what was fun? (do we really need to say? ;)
+- Taking a look at the Express code, and get a view of a real good design.
+- Running the exercise on our Ex2 and seeing that our HTTP server works.
+
+3) efficiency
+- All was done in asynchronous mode - all I/O calls, and Middlewares calls (using Process.nextTick()).
+- Taking some functions out of the different objects we defined so that they won't be copied with each instance of the object.

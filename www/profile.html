@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" href="style.css" />
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script type="text/javascript" src="models/calc.js"></script>
+		<script type="text/javascript" src="controllers/calc.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="login-form">
+				<label for="username">Username: </label>
+				<input id="username" type="text" name="username" placeholder="Userame" autofocus/>
+				<label for="password">Password: </label>
+				<input id="password" type="password" name="password" placeholder="Password" />
+				<input id="submit-login" type="button" value="Send" />
+			</div>
+		</div>
+		<div id="info">
+			<div class="content">
+				<div style="overflow: hidden">
+					<div id="prof-pic" style="float:right">
+						<img src="img/joker.jpg" width="350" height="200">
+					</div>
+					<h1>Alexander, Liakhovetsky</h1>
+					<h2>(310520036)</h2>
+					<p>
+						Hi, I'm Alex,
+					</p>
+					<p>
+						I'm 23 years old and I am from Raanana.
+					</p>
+					<p>
+						I server in the IDF as a compter progremmer and I study computer science at the Hebrew University.
+					</p>
+					<span>My Favorite Sites:</span>
+					<table>
+						<tr>
+							<th>Site</th>
+							<th>Reason</th>
+						</tr>
+						<tr>
+							<td><a href="http://www.google.com">Google</a></td>
+							<td>its the best site to look for answers</td>
+						</tr>
+						<tr>
+							<td><a href="http://www.geektime.co.il">Geektime</a></td>
+							<td>a technology news site, conatains interesting articles</td>
+						</tr>
+						<tr>
+							<td><a href="http://www.facebook.com">Facebook</a></td>
+							<td>facebook helps me keeping in touch with friends</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="footer">
+				<img src="img/joke.jpg">
+			</div>
+		</div>
+		<div class="calculator">
+			<div id="result">0</div>
+			<input id="input" type="text" />
+			<div>
+				<input id="add" type="button" value="+" />
+				<input id="mul" type="button" value="*" />
+				<input id="clear" type="button" value="Clear" />
+				<input id="settings" type="button" value="Settings" />
+			</div>
+		</div>
+	</body>
+</html>
+
+
+<div id="dialog-form" title="Set new default">
+	<label for="name">New value:</label>
+	<input type="text" name="new-default" id="new-default" class="text ui-widget-content ui-corner-all">
+</div>
